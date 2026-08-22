@@ -2,6 +2,8 @@
 
 MarketMind AI is a full-stack marketing analytics platform built with Next.js and TypeScript. It allows business teams to upload raw customer data via CSV, parse it efficiently, and transform complex metrics into actionable commercial marketing strategies.
 
+🌐 **Live Demo**: [marketmind-ai-pi.vercel.app](https://marketmind-ai-pi.vercel.app)
+
 ---
 
 ## 📌 Key Features
@@ -11,23 +13,29 @@ MarketMind AI is a full-stack marketing analytics platform built with Next.js an
 
 ---
 
+## 🖼️ Dashboard Preview
+![MarketMind AI Dashboard](dashboard.png)
+
+---
+
 ## 🛠️ Tech Stack & Tools
 * **Framework**: Next.js (App Router)
 * **Language**: TypeScript
 * **Data Parsing**: PapaParse
+* **Deployment**: Vercel
 * **Styling**: PostCSS / Tailwind CSS
-* **Code Quality**: ESLint
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Local Development Setup
 
-First, clone the repository and install dependencies:
+To run this project locally on your machine:
 
-```bash
-npm install
-Then, run the development server:
+1. Clone the repository and install dependencies:
+   ```bash
+   npm install
+Run the development server:
 
 Bash
 npm run dev
-Open http://localhost:3000 with your browser to view the dashboard application.
+Open http://localhost:3000 in your browser.
